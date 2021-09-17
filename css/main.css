@@ -7,13 +7,6 @@
   --Slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
 }
 
-/////////SASS Variables Start/////////
-$font-inter: 'Inter', sans-serif;
-$font-lexend-deca: 'Lexend Deca', sans-serif;
-
-/////////Responsive Breakpoint/////////
-$bp-small: 23.44em;
-
 * {
   margin: 0;
   padding: 0;
@@ -22,16 +15,18 @@ $bp-small: 23.44em;
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 15px;
 }
 
 body {
-  font-family: $font-inter;
+  font-family: "Inter", sans-serif;
   background-color: var(--very-dark-blue);
   color: var(--white);
 }
@@ -40,6 +35,7 @@ body {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #3e52a3;
 }
