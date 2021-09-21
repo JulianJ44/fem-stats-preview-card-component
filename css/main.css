@@ -73,7 +73,7 @@ body {
   margin: 71px 0 25px 72px;
 }
 
-.card__highlight {
+.card__heading--highlight {
   color: var(--soft-violet);
 }
 
