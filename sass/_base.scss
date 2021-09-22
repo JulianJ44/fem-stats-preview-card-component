@@ -27,7 +27,7 @@ $bp-small: 23.44em;
 
 html {
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 93.75%; // 1 rem = 15px, 15px/16px = 93.75%
 }
 
 body {
