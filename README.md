@@ -27,7 +27,7 @@ Users had to be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://stats-preview-comp.netlify.app/
 
 ## My process
 
