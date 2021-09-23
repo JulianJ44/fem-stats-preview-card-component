@@ -80,9 +80,6 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 }
 
@@ -92,6 +89,15 @@ body {
   font-weight: 700;
   line-height: 2.94rem;
   margin: 4.74rem 0 1.67rem 4.8rem;
+}
+
+@media only screen and (max-width: 23.44em) {
+  .card__heading {
+    font-size: 1.86rem;
+    line-height: 2.13rem;
+    margin: 2.66666rem 2.1rem 1.06666rem 2.1rem;
+    text-align: center;
+  }
 }
 
 .card__heading--highlight {
@@ -111,6 +117,16 @@ body {
   margin-right: 3.2rem;
 }
 
+@media only screen and (max-width: 23.44em) {
+  .card__paragraph {
+    line-height: 1.66666rem;
+    margin-left: 2.06666rem;
+    margin-bottom: 2.06666rem;
+    margin-right: 2.1333rem;
+    text-align: center;
+  }
+}
+
 .card__stats {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,16 +137,69 @@ body {
           flex-direction: row;
 }
 
+@media only screen and (max-width: 23.44em) {
+  .card__stats {
+    width: 327px;
+    height: 56px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .card__stats--box1 {
   margin: 0 5.3333rem 0 4.76rem;
+}
+
+@media only screen and (max-width: 23.44em) {
+  .card__stats--box1 {
+    margin: 0 32px 24px 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .card__stats--box2 {
   margin-right: 4rem;
 }
 
+@media only screen and (max-width: 23.44em) {
+  .card__stats--box2 {
+    margin: 24px 32px 24px 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .card__stats--box3 {
   margin-right: 2.067rem;
+}
+
+@media only screen and (max-width: 23.44em) {
+  .card__stats--box3 {
+    margin: 24px 32px 32px 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .card__stats-stat {
@@ -139,6 +208,12 @@ body {
   font-weight: 700;
   line-height: 1.94rem;
   margin-bottom: 0.13rem;
+}
+
+@media only screen and (max-width: 23.44em) {
+  .card__stats-stat {
+    text-align: center;
+  }
 }
 
 .card__stats-title {
@@ -150,6 +225,12 @@ body {
   text-transform: uppercase;
   mix-blend-mode: normal;
   opacity: 0.6;
+}
+
+@media only screen and (max-width: 23.44em) {
+  .card__stats-title {
+    text-align: center;
+  }
 }
 
 .card__hero {
@@ -216,3 +297,4 @@ body {
 
 /*https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image/36679903*/
 /*https://stackoverflow.com/questions/28966158/changing-image-depending-on-mobile-or-desktop-html-css/28966485*/
+/*https://www.internetingishard.com/html-and-css/responsive-images/*/

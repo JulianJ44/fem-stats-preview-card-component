@@ -19,7 +19,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 
   &__heading {
@@ -28,6 +27,13 @@
     font-weight: 700;
     line-height: 2.94rem;
     margin: 4.74rem 0 1.67rem 4.8rem;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.86rem;
+      line-height: 2.13rem;
+      margin: 2.66666rem 2.1rem 1.06666rem 2.1rem;
+      text-align: center;
+    }
   }
 
   &__heading--highlight {
@@ -45,22 +51,55 @@
     margin-left: 4.76rem;
     margin-bottom: 4.8rem;
     margin-right: 3.2rem;
+
+    @media only screen and (max-width: $bp-small) {
+      line-height: 1.66666rem;
+      margin-left: 2.06666rem;
+      margin-bottom: 2.06666rem;
+      margin-right: 2.1333rem;
+      text-align: center;
+    }
   }
 
   &__stats {
     display: flex;
     flex-direction: row;
 
+    @media only screen and (max-width: $bp-small) {
+      width: 327px;
+      height: 56px;
+      display: flex;
+      flex-direction: column;
+    }
+
     &--box1 {
       margin: 0 5.3333rem 0 4.76rem;
+
+      @media only screen and (max-width: $bp-small) {
+        margin: 0 32px 24px 31px;
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     &--box2 {
       margin-right: 4rem;
+
+      @media only screen and (max-width: $bp-small) {
+        margin: 24px 32px 24px 31px;
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     &--box3 {
       margin-right: 2.067rem;
+
+      @media only screen and (max-width: $bp-small) {
+        margin: 24px 32px 32px 31px;
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     &-stat {
@@ -69,6 +108,10 @@
       font-weight: 700;
       line-height: 1.94rem;
       margin-bottom: 0.13rem;
+
+      @media only screen and (max-width: $bp-small) {
+        text-align: center;
+      }
     }
 
     &-title {
@@ -80,6 +123,10 @@
       text-transform: uppercase;
       mix-blend-mode: normal;
       opacity: 0.6;
+
+      @media only screen and (max-width: $bp-small) {
+        text-align: center;
+      }
     }
   }
 
@@ -139,9 +186,10 @@
     border-radius: 0.5333rem 0.5333rem 0 0;
   }
 }
-
 //Useful Links
 //Color overlay
 /*https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image/36679903*/
 // Changing image on desktop to mobile
 /*https://stackoverflow.com/questions/28966158/changing-image-depending-on-mobile-or-desktop-html-css/28966485*/
+// Responsive Images
+/*https://www.internetingishard.com/html-and-css/responsive-images/*/
