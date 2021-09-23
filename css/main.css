@@ -157,7 +157,9 @@ body {
 
 @media only screen and (max-width: 23.44em) {
   .card__stats--box1 {
-    margin: 0 32px 24px 31px;
+    margin-right: 2.1333rem;
+    margin-bottom: 1.6rem;
+    margin-left: 2.06666rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -174,7 +176,7 @@ body {
 
 @media only screen and (max-width: 23.44em) {
   .card__stats--box2 {
-    margin: 24px 32px 24px 31px;
+    margin: 0.6rem 2.1333rem 2.1333rem 2.06666rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -191,7 +193,7 @@ body {
 
 @media only screen and (max-width: 23.44em) {
   .card__stats--box3 {
-    margin: 24px 32px 32px 31px;
+    margin: 0.6rem 2.1333rem 2.1333rem 2.06666rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -294,7 +296,3 @@ body {
   opacity: 1;
   border-radius: 0.5333rem 0.5333rem 0 0;
 }
-
-/*https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image/36679903*/
-/*https://stackoverflow.com/questions/28966158/changing-image-depending-on-mobile-or-desktop-html-css/28966485*/
-/*https://www.internetingishard.com/html-and-css/responsive-images/*/
