@@ -12,6 +12,16 @@
   margin: 11.8rem 11rem;
   display: flex;
 
+  @media only screen and (max-width: $bp-small) {
+    width: 327px;
+    height: 780px;
+    margin: 88px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__heading {
     font-size: 2.4rem;
     font-family: $font-inter;
@@ -76,7 +86,12 @@
   &__hero {
     margin-left: 6.3rem;
     position: relative;
+
+    @media only screen and (max-width: $bp-small) {
+      display: none;
+    }
   }
+
   &__hero::before {
     content: '';
     position: absolute;
@@ -92,9 +107,41 @@
 
   img {
     border-radius: 0 0.5333rem 0.5333rem 0;
+
+    @media only screen and (max-width: $bp-small) {
+      border-radius: 0.5333rem 0.5333rem 0 0;
+    }
+  }
+
+  &__hero--mobile {
+    display: none;
+    position: relative;
+    height: 240px;
+
+    @media only screen and (max-width: $bp-small) {
+      display: block;
+      position: absolute;
+      left: 24px;
+      top: 85px;
+    }
+  }
+
+  &__hero--mobile::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    mix-blend-mode: multiply;
+    background: var(--soft-violet);
+    opacity: 1;
+    border-radius: 0.5333rem 0.5333rem 0 0;
   }
 }
 
 //Useful Links
-/*Color overlay*/
+//Color overlay
 /*https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image/36679903*/
+// Changing image on desktop to mobile
+/*https://stackoverflow.com/questions/28966158/changing-image-depending-on-mobile-or-desktop-html-css/28966485*/
