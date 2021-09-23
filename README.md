@@ -21,9 +21,9 @@ Users had to be able to:
 
 ### Screenshot
 
-![Stats Preview Card Component - Desktop](./design/solution/stats_preview_card_desktop.jpg)
+![Stats Preview Card Component - Desktop(./design/solution/stats_preview_card_desktop.jpg)
 
-![Stats Preview Card Component - Mobile](./design/solution/stats_preview_card_mobile.jpg)
+![Stats Preview Card Component - Mobile(./design/solution/stats_preview_card_mobile.jpg)
 
 ### Links
 
